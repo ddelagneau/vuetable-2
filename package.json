@@ -1,5 +1,5 @@
 {
-  "name": "vuetable-2",
+  "name": "@ddelagneau/vuetable-2",
   "version": "1.7.5",
   "description": "Datatable component for Vue 2.x",
   "main": "dist/vuetable-2.js",
@@ -7,7 +7,7 @@
   "author": "Rati Wannapanop <rati.wannapanop@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ratiw/vuetable-2.git"
+    "url": "git+https://github.com/ddelagneau/vuetable-2.git"
   },
   "private": false,
   "keywords": [
