@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - uses: ajinx/zalenium@v1.1  
+      - uses: ajinx/zalenium@1.1  
       - run: npm ci
       - run: npm test
 
