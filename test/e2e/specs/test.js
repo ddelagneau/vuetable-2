@@ -6,9 +6,10 @@ module.exports = {
     browser
     .url('http://localhost:8080')
       .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.logo')
-      .assert.containsText('h1', 'Hello Vue!')
-      .assert.elementCount('p', 3)
+      .assert.elementPresent('table>thead>tr>th')
+      .assert.containsText('#_id', 'Detail')
+      .assert.elementCount('table>thead>tr [class^=vuetable-th-]', 10)
+      .assert.elementCount('table>tbody>tr', 10)
       .end()
   }
 }
