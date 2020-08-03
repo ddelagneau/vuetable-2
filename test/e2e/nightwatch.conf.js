@@ -28,9 +28,9 @@ module.exports = {
         "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true, 
-	"chromeOptions": {
-		binary: require('chromedriver').path
-	} 
+        "chromeOptions": {
+          args: ['--headless']
+        } 
       }
     },
 
